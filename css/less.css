@@ -1,0 +1,141 @@
+@charset "utf-8";
+#maoyanNews {
+  width: 100%;
+  height: auto;
+  max-width: 7.5rem;
+  min-width: 3.2rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: hidden;
+  padding: .45rem .4rem;
+}
+#maoyanNews p {
+  font-size: .36rem;
+  line-height: .36rem;
+  font-weight: 600;
+}
+#maoyanNews ul li.sty1 {
+  overflow: hidden;
+  position: relative;
+  padding: .45rem 0 .5rem 0;
+  height: 4.2rem;
+  cursor: pointer;
+  border-bottom: 1px solid #eee;
+}
+#maoyanNews ul li.sty1 p {
+  font-size: .36rem;
+  line-height: .36rem;
+  font-weight: 400;
+  margin-bottom: .4rem;
+}
+#maoyanNews ul li.sty1 div {
+  width: 30%;
+  margin-left: 5%;
+  height: 1.64rem;
+  float: left;
+  border-radius: .06rem;
+  overflow: hidden;
+}
+#maoyanNews ul li.sty1 div:nth-of-type(1) {
+  margin-left: 0;
+}
+#maoyanNews ul li.sty1 div img {
+  width: 100%;
+  height: auto;
+}
+#maoyanNews ul li.sty1 span {
+  display: inline-block;
+  color: #909090;
+  font-size: .24rem;
+  line-height: .24rem;
+  position: absolute;
+  width: 1rem;
+  bottom: .6rem;
+}
+#maoyanNews ul li.sty1 span:nth-of-type(1) {
+  width: 2.6rem;
+  left: 0;
+}
+#maoyanNews ul li.sty1 span:nth-of-type(1) time {
+  margin-left: .2rem;
+}
+#maoyanNews ul li.sty1 span:nth-of-type(2) {
+  width: 1.1rem;
+  left: 4.6rem;
+}
+#maoyanNews ul li.sty1 span:nth-of-type(3) {
+  width: .6rem;
+  left: 6.16rem;
+}
+#maoyanNews ul li.sty2 {
+  overflow: hidden;
+  position: relative;
+  padding: .45rem 0 .5rem 0;
+  height: 3rem;
+  cursor: pointer;
+  border-bottom: 1px solid #eee;
+}
+#maoyanNews ul li.sty2 p {
+  width: 4.24rem;
+  font-size: .36rem;
+  line-height: .36rem;
+  font-weight: 400;
+  float: left;
+}
+#maoyanNews ul li.sty2 div {
+  width: 30%;
+  margin-left: 5%;
+  height: 1.64rem;
+  float: right;
+  border-radius: .06rem;
+  overflow: hidden;
+}
+#maoyanNews ul li.sty2 div img {
+  width: 100%;
+  height: auto;
+}
+#maoyanNews ul li.sty2 span {
+  display: inline-block;
+  color: #909090;
+  font-size: .24rem;
+  line-height: .24rem;
+  position: absolute;
+  width: 1rem;
+  bottom: .6rem;
+}
+#maoyanNews ul li.sty2 span:nth-of-type(1) {
+  width: 2.6rem;
+  left: 0;
+}
+#maoyanNews ul li.sty2 span:nth-of-type(1) time {
+  margin-left: .2rem;
+}
+#maoyanNews ul li.sty2 span:nth-of-type(2) {
+  width: 1.1rem;
+  left: 4.6rem;
+}
+#maoyanNews ul li.sty2 span:nth-of-type(3) {
+  width: .6rem;
+  left: 6.16rem;
+}
+#maoyanNews ul li.sty3 {
+  overflow: hidden;
+  position: relative;
+  padding: .45rem 0 .5rem 0;
+  height: 2.6rem;
+  cursor: pointer;
+  border-bottom: 1px solid #eee;
+}
+#maoyanNews ul li.sty3 div {
+  width: 100%;
+  margin-left: 5%;
+  height: 1.64rem;
+  float: right;
+  border-radius: .06rem;
+  overflow: hidden;
+}
+#maoyanNews ul li.sty3 div img {
+  width: 100%;
+  height: auto;
+}

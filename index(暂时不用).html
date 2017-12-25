@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="电影,电视剧,票房,美剧,猫眼电影,电影排行榜,电影票,经典电影,在线观看" />
+    <meta name="description" content="猫眼电影致力于打造中国最大最全的电影信息资讯平台,在这里,海量影视资料应有尽有,热点影视讯息一网打尽,更有秒级实时票房,热门榜单,极致地满足您独特的观影口味" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <title>猫眼电影 - 一网打尽好电影</title>
+    <script src="js/adaptive.js"></script>
+    <link rel="stylesheet" href="css/swiper-3.4.2.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<!-- header -->
+	<header>
+		<div class="address">
+			<span>郑州</span>
+			<span class="iconfont">&#xe61f;</span>
+		</div>
+		<div class="search">
+			<input type="text" placeholder="找影视剧、影人、影院、演出">
+			<input class="iconfont" type="button" value="&#xe601;">
+		</div>
+	</header>
+<!-- header end-->
+	<main>
+		<!-- 轮播图 -->
+		<div id="slide">
+			<div class="slide_body">
+				<div class="active"><a href=""><img src="images/slider1.jpg" alt=""></a></div>
+				<div><a href=""><img src="images/slider2.jpg" alt=""></a></div>
+				<div><a href=""><img src="images/slider3.jpg" alt=""></a></div>
+				<div><a href=""><img src="images/slider4.jpg" alt=""></a></div>
+			</div>
+			<nav>
+				<ul>
+					<li class="active"></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</nav>
+		</div>
+		<!-- 轮播图 end-->
+
+		<!-- 正在热映 -->
+		<section id="isOn">
+			<p>正在热映</p>
+    		<a href="">全部(43)<span class="iconfont">&#xe61f;</span></a>
+    		  <!-- Swiper -->
+			<div class="swiper-container isOnSwiper">
+				<ul class="swiper-wrapper">
+					<li class="swiper-slide">
+						<a href=""><p>寻梦环游记</p></a>
+						<p>观众评9.6</p>
+						<p>购票</p>
+					</li>
+					<li class="swiper-slide">
+						<a href=""><p>帕丁顿熊2</p></a>
+						<p>观众评9.3</p>
+						<p>购票</p>
+					</li>
+					<li class="swiper-slide">
+						<a href=""><p>奇门遁甲</p></a>
+						<p>点映评9.7</p>
+						<p>购票</p>
+					</li>
+					<li class="swiper-slide">
+						<a href=""><p>芳华</p></a>
+						<p>点映评8.6</p>
+						<p>购票</p>
+					</li>
+					<li class="swiper-slide">
+						<a href=""><p>巨额来电</p></a>
+						<p>观众评9.1</p>
+						<p>购票</p>
+					</li>
+					<li class="swiper-slide">
+						<a href=""><p>心理罪之城市之光</p></a>
+						<p>观众评7.8</p>
+						<p>购票</p>
+					</li>
+					<li class="swiper-slide">
+						<a href=""><p>至爱梵高·星空之谜</p></a>
+						<p>点映评7.8</p>
+						<p>购票</p>
+					</li>
+					<li class="swiper-slide">
+						<a href=""><p>鲨海</p></a>
+						<p>观众评8.8</p>
+						<p>购票</p>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<!-- 正在热映 end -->
+	</main>
+</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+<script type="text/javascript" src="js/swiper-3.4.2.min.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+ <script>
+    var swiper = new Swiper('.isOnSwiper', {
+    	slidesPerView: "auto",
+		slidesPerView: 3.5,
+		spaceBetween: 20,
+		freeMode: true,
+		freeModeMomentum: false,
+		freeModeMomentumBounce: true,
+    });
+
+  </script>
